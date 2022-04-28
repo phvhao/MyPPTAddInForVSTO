@@ -40,22 +40,22 @@
             this.group1 = this.Factory.CreateRibbonGroup();
             this.tabDZ = this.Factory.CreateRibbonTab();
             this.group3 = this.Factory.CreateRibbonGroup();
-            this.group2 = this.Factory.CreateRibbonGroup();
-            this.group4 = this.Factory.CreateRibbonGroup();
-            this.colorDialog = new System.Windows.Forms.ColorDialog();
             this.btnColorPickup = this.Factory.CreateRibbonButton();
             this.btnColorPanel = this.Factory.CreateRibbonButton();
-            this.btnAddFooter = this.Factory.CreateRibbonButton();
+            this.group2 = this.Factory.CreateRibbonGroup();
             this.button4 = this.Factory.CreateRibbonButton();
             this.button5 = this.Factory.CreateRibbonButton();
             this.button6 = this.Factory.CreateRibbonButton();
             this.button7 = this.Factory.CreateRibbonButton();
             this.button8 = this.Factory.CreateRibbonButton();
             this.button9 = this.Factory.CreateRibbonButton();
+            this.btnAddFooter = this.Factory.CreateRibbonButton();
+            this.group4 = this.Factory.CreateRibbonGroup();
             this.button10 = this.Factory.CreateRibbonButton();
             this.button11 = this.Factory.CreateRibbonButton();
             this.button12 = this.Factory.CreateRibbonButton();
             this.gallery1 = this.Factory.CreateRibbonGallery();
+            this.colorDialog = new System.Windows.Forms.ColorDialog();
             this.tab1.SuspendLayout();
             this.tabDZ.SuspendLayout();
             this.group3.SuspendLayout();
@@ -92,27 +92,6 @@
             this.group3.Label = "颜色";
             this.group3.Name = "group3";
             // 
-            // group2
-            // 
-            this.group2.Items.Add(this.button4);
-            this.group2.Items.Add(this.button5);
-            this.group2.Items.Add(this.button6);
-            this.group2.Items.Add(this.button7);
-            this.group2.Items.Add(this.button8);
-            this.group2.Items.Add(this.button9);
-            this.group2.Items.Add(this.btnAddFooter);
-            this.group2.Label = "标签";
-            this.group2.Name = "group2";
-            // 
-            // group4
-            // 
-            this.group4.Items.Add(this.button10);
-            this.group4.Items.Add(this.button11);
-            this.group4.Items.Add(this.button12);
-            this.group4.Items.Add(this.gallery1);
-            this.group4.Label = "插入";
-            this.group4.Name = "group4";
-            // 
             // btnColorPickup
             // 
             this.btnColorPickup.Image = global::MyPPTAddIn.Properties.Resources.Color_Dropper_01;
@@ -129,13 +108,17 @@
             this.btnColorPanel.ShowImage = true;
             this.btnColorPanel.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnColorPanel_Click);
             // 
-            // btnAddFooter
+            // group2
             // 
-            this.btnAddFooter.Image = global::MyPPTAddIn.Properties.Resources.Text_Footer_01;
-            this.btnAddFooter.Label = "添加页脚";
-            this.btnAddFooter.Name = "btnAddFooter";
-            this.btnAddFooter.ShowImage = true;
-            this.btnAddFooter.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnAddFooter_Click);
+            this.group2.Items.Add(this.button4);
+            this.group2.Items.Add(this.button5);
+            this.group2.Items.Add(this.button6);
+            this.group2.Items.Add(this.button7);
+            this.group2.Items.Add(this.button8);
+            this.group2.Items.Add(this.button9);
+            this.group2.Items.Add(this.btnAddFooter);
+            this.group2.Label = "标签";
+            this.group2.Name = "group2";
             // 
             // button4
             // 
@@ -178,6 +161,23 @@
             this.button9.Label = "添加主题标签";
             this.button9.Name = "button9";
             this.button9.ShowImage = true;
+            // 
+            // btnAddFooter
+            // 
+            this.btnAddFooter.Image = global::MyPPTAddIn.Properties.Resources.Text_Footer_01;
+            this.btnAddFooter.Label = "添加页脚";
+            this.btnAddFooter.Name = "btnAddFooter";
+            this.btnAddFooter.ShowImage = true;
+            this.btnAddFooter.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnAddFooter_Click);
+            // 
+            // group4
+            // 
+            this.group4.Items.Add(this.button10);
+            this.group4.Items.Add(this.button11);
+            this.group4.Items.Add(this.button12);
+            this.group4.Items.Add(this.gallery1);
+            this.group4.Label = "插入";
+            this.group4.Name = "group4";
             // 
             // button10
             // 

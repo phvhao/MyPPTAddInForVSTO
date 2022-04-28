@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b4afa025-e1e2-47a2-b354-0f70bcbe8817": {
+      "ProjectGuid": "b4afa025-e1e2-47a2-b354-0f70bcbe8817",
+      "DisplayName": "WindowsFormsApp1",
+      "ColorIndex": 0
+    },
+    "a5c6c00f-0b74-454a-98bc-7d486bf143e7": {
+      "ProjectGuid": "a5c6c00f-0b74-454a-98bc-7d486bf143e7",
+      "DisplayName": "MyPPTAddIn",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
